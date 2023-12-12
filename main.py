@@ -110,7 +110,7 @@ from mortality_analysis import merge_data
 merge = merge_data.DataMerge(cdc_data=cdc_dataset, population_data=bea_dataset)
 
 # Merging datasets and accessing the merged data
-merged_data = merge.merge_dataframes()
+merged_data = merge.merge_datasets()
 
 # Importing module for data analysis
 from mortality_analysis import data_analysis
