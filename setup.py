@@ -19,8 +19,8 @@ setup(
         'pandas>=0.23.4',
         'seaborn>=0.11.0',
         'scikit-learn>=1.3.2',
-        'scipy'>=1.11.4',
-        'requests>=2.31.0',
+        'scipy>=1.11.4',
+        'requests>=2.31.0'
 
 
     ],
